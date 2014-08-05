@@ -49,6 +49,7 @@ nav li {
 
 a {
   color: #121212;
+  text-decoration:none;
 }
 
 a:hover {
