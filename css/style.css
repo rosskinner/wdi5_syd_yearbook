@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300);
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #121212;
+  /*color:#FFF;*/
+  font-weight: 300;
+  background-color: #EBFAFF;
+}
+
+.logo {
+  min-width: 800px;
+  display: inline-block;
+}
+
+.logo a {
+  font-size:2em;
+  font-family: 'Rokkitt', serif;
+  font-weight: 700;
+  color:#121212;
+}
+
+.fine {
+  font-weight:100;
+}
+
+#syd {
+  vertical-align:0.15em;
+}
+
+nav {
+  width: 400px;
+  display: inline-block;
+  padding: 20px;
+  padding-right:0;
+}
+
+nav ul {
+  text-align:right;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin:0 10px;
+}
+
+a {
+  color: #121212;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.tag-line {
+  font-size:9em;
+  font-family: 'Rokkitt', serif;
+  font-weight: 700;
+  width:70%;
+  height:100vh;
+  margin:0 auto;
+  text-align:center;
+  padding-top: 15%;
+  color: #435772;
+  /*text-shadow: #4F4F4F 1px -1px  ;*/
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+.tag-line span {
+  /*border-bottom: 1px solid #4F4F4F;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 1);*/
+  /*padding:0 40px;
+  padding-top:15%;
+  display:block;
+  -webkit-box-sizing: border-box;  Safari/Chrome, other WebKit
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  /*box-sizing: border-box;*/
+}
+
+#just {
+  font-family: 'Lobster Two', cursive;
+  font-size:0.8em;
+  display:inline-block;
+  color: #121212;
+  font-style: italic;
+  font-weight:100;
+
+}
+.head {
+  width:250px;
+  height:250px;
+  overflow:hidden;
+  border-radius: 100%;
+  display:inline-block;
+  margin:20px;
+  text-align:center;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+
+.profile {
+  width:960px;
+  margin: 0 auto;
+  text-align:center;
+}
+
+img {
+  position:relative;
+  left:-40px;
+  width:350px;
+}
